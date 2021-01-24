@@ -38,4 +38,3 @@ class Transfer
   end
 
 end #ClassEnd
-
