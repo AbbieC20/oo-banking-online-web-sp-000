@@ -16,11 +16,15 @@ class BankAccount
     return "Your balance is $#{@balance}."
   end
 
-end #ClassEnd
+  def valid?
+    if @status = "open" && @balance > 0 
+      return true
+    else
+      return false
+    end
+  end
 
-# display balance
-# show balance
-# end
+end #ClassEnd
 
 # valid?
 # is true when status = open and balance > 0
