@@ -9,8 +9,11 @@ class Transfer
   end
 
   def valid?
-    BankAccount.new(@sender).valid?
-    BankAccount.new(@receiver).valid?
+    sender_valid = BankAccount.new(@sender).valid?
+    receiver_valid = BankAccount.new(@receiver).valid?
+    if sender_valid == true && receiver_valid == true 
+      return true
+    end
   end
 
 end #ClassEnd
