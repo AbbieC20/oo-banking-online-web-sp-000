@@ -8,14 +8,7 @@ def initialize(sender, receiver, amount)
   @amount = amount
 end
 
-end
-
-# def initialize
-#   has a sender
-#   has a receiver
-#   status of "pending"
-#   transfer amount
-# end
+end #ClassEnd 
 
 # def valid?
 #   are both accounts (i.e. sender & receiver) are valid
