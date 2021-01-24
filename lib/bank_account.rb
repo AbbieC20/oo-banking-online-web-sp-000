@@ -1,5 +1,6 @@
 class BankAccount
-  attr_accessor :name, :balance, :status
+  attr_accessor :balance, :status
+  attr_reader :name
 
   def initialize(name)
     @name = name
@@ -14,9 +15,7 @@ end
 end #ClassEnd
 
 
-# deposit
-# can deposit money into account
-# end
+
 
 # display balance
 # show balance
