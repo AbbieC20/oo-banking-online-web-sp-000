@@ -37,11 +37,5 @@ class Transfer
     end
   end
 
-
 end #ClassEnd
 
-
-# def reverse_transfer
-#   reverse the transfer
-#   only if this is an executed transfer
-# end
