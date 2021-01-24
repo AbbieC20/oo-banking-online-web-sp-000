@@ -31,11 +31,6 @@ class Transfer
 
 end #ClassEnd
 
-# def execute_transaction
-#   moves amount from sender to receiver
-#   only happens once
-#   if sender does not have the funds (not valid) reject transfer
-# end
 
 # def reverse_transfer
 #   reverse the transfer
