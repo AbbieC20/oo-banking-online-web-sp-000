@@ -18,9 +18,9 @@ class Transfer
 
   def execute_transaction
     if #transfer is valid
-      ..
-      .
-      .
+      BankAccount.new(self.sender).
+      BankAccount.new(self.receiver).
+      @status = "complete"
     else
       puts "Transaction rejected. Please check your account balance."
       @status = "rejected"
