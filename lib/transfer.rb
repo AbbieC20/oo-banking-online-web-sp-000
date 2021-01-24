@@ -18,11 +18,6 @@ class Transfer
 
 end #ClassEnd
 
-# def valid?
-#   are both accounts (i.e. sender & receiver) are valid
-#   referring to BankAccount class
-# end
-
 # def execute_transaction
 #   moves amount from sender to receiver
 #   only happens once
