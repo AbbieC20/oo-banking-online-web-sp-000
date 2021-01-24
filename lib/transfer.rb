@@ -13,6 +13,8 @@ class Transfer
     receiver_valid = BankAccount.new(self.receiver).valid?
     if sender_valid == true && receiver_valid == true
       return true
+    else
+      return false
     end
   end
 
