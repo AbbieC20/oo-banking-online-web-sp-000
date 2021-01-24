@@ -20,7 +20,7 @@ class Transfer
 
   def execute_transaction
     if self.valid? == true
-      amount.each do |figure|
+      @amount.each do |figure|
       @sender.balance = @sender.balance - figure
       @receiver.balance = @receiver.balance + figure
       end
