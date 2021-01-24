@@ -1,14 +1,18 @@
 class Transfer
   attr_accessor :sender, :receiver, :status, :amount
 
-def initialize(sender, receiver, amount)
-  @sender = sender
-  @receiver = receiver
-  @status = "pending"
-  @amount = amount
-end
+  def initialize(sender, receiver, amount)
+    @sender = sender
+    @receiver = receiver
+    @status = "pending"
+    @amount = amount
+  end
 
-end #ClassEnd 
+  def valid?
+    
+  end
+
+end #ClassEnd
 
 # def valid?
 #   are both accounts (i.e. sender & receiver) are valid
