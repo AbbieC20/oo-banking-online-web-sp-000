@@ -7,14 +7,12 @@ class BankAccount
     @status = "open"
   end
 
+def deposit(money_deposit)
+  @balance = @balance + money_deposit
 end
 
-# initialize
-# a Bank Account
-# a name Y
-# balance of 1000 Y
-# status of 'open'Y
-# end
+end #ClassEnd
+
 
 # deposit
 # can deposit money into account
