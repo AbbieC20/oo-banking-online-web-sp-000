@@ -29,7 +29,3 @@ class BankAccount
   end
 
 end #ClassEnd
-
-# close Account
-# sets status to closed.
-# end
