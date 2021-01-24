@@ -26,7 +26,7 @@ class Transfer
     else
       return "Transaction rejected. Please check your account balance."
       self.status = "rejected"
-      self.close_account.status = "rejected"
+      BankAccount.close_account.status = "rejected"
     end
   end
 
