@@ -18,8 +18,10 @@ class Transfer
 
   def execute_transaction
     if self.valid? == true
-      @sender.balance = @sender.balance - @amount
-      @receiver.balance = @receiver.balance + @amount
+      amount.each do |figure|
+      @sender.balance = @sender.balance - figure
+      @receiver.balance = @receiver.balance + figure
+      end
       @status = "complete"
     else
       puts "Transaction rejected. Please check your account balance."
