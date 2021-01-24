@@ -17,7 +17,7 @@ class Transfer
   end
 
   def execute_transaction
-    if #transfer is valid
+    if self.valid? == true
       BankAccount.new(self.sender).balance - @amount
       BankAccount.new(self.receiver).deposit(@amount)
       @status = "complete"
