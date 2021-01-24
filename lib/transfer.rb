@@ -16,6 +16,9 @@ class Transfer
     end
   end
 
+  def execute_transaction
+  end 
+
 end #ClassEnd
 
 # def execute_transaction
